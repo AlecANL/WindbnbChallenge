@@ -1,5 +1,5 @@
 export async function getData() {
-  const response = await fetch('../../stays.json');
+  const response = await fetch('../../db.json');
   const data = await response.json();
   return data;
 }
